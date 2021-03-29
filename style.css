@@ -219,7 +219,63 @@ html,body{
     border:2px solid #d3c1ad;
     transform: scale(1.2);
 }
-/*.page-header-carousel-pagination-item:last-child{
-    margin:0;
-}*/
+.page-main-serveses{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 80px 0;
+}
+.page-main-serveses-card{
+    width: 266px;
+    padding: 0 34px 0 0;
+}
+.page-main-serveses-card:last-child{
+    padding: 0;
+}
+.page-main-serveses-card:after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin: 20px auto 0 auto;
+}
+.serveses-card-link{
+    text-decoration: none;
+}
+.page-main-serveses-card:hover .serveses-logo{
+    fill: #c7b299;
+}
+.page-main-serveses-card:hover .page-main-serveses-card-heading {
+    color: #c7b299;
+}
+.page-main-serveses-card:hover .page-main-serveses-card-text{
+    color: #c7b299;
+}
+.page-main-serveses-card:hover:after{
+    background-color:#c7b299;
+}
+.serveses-logo{
+    display: block;
+    fill:#555555;
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+}
+.page-main-serveses-card-heading{
+    display: block;
+    color: #555555;
+    font-family:raleway;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+.page-main-serveses-card-text{
+    color: #8c8c8c;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
 
