@@ -282,6 +282,9 @@ html,body{
     padding:83px 0 0 0;
     width: 100%;
     background-color: #fbfaf8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .page-main-ideas-heading{
     display: block;
@@ -290,6 +293,7 @@ html,body{
     font-family: raleway;
     font-size: 30px;
     font-weight: 400;
+    width: 100%;
 }
 .page-main-ideas-text{
     color: #8c8c8c;
@@ -306,7 +310,7 @@ html,body{
     display: flex;
     justify-content: center;
     position: relative;
-    width: 100%;
+    width: 1230px;
 }
 .page-main-ideas-img{
     display: block;
@@ -317,7 +321,7 @@ html,body{
     position: absolute;
     z-index: 0;
     top:82px;
-    left:60px;
+    left:0;
 }
 .page-main-ideas-img-middle{
     height: 482px;
@@ -328,7 +332,7 @@ html,body{
     position: absolute;
     z-index: 0;
     top:82px;
-    left:520px;
+    left:461px;
 }
 .page-main-ideas-img-left:hover{
     z-index: 2;
