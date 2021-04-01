@@ -278,4 +278,62 @@ html,body{
     line-height: 24px;
     text-align: center;
 }
+.page-main-ideas{
+    padding:83px 0 0 0;
+    width: 100%;
+    background-color: #fbfaf8;
+}
+.page-main-ideas-heading{
+    display: block;
+    text-align: center;
+    color: #555555;
+    font-family: raleway;
+    font-size: 30px;
+    font-weight: 400;
+}
+.page-main-ideas-text{
+    color: #8c8c8c;
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    width: 757px;
+    margin: 0 auto;
+    padding: 24px 0 40px 0;
+}
+.page-main-ideas-wrp{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.page-main-ideas-img{
+    display: block;
+    width: 770px;
+}
+.page-main-ideas-img-left{
+    height: 400px;
+    position: absolute;
+    z-index: 0;
+    top:82px;
+    left:60px;
+}
+.page-main-ideas-img-middle{
+    height: 482px;
+    z-index: 1;
+}
+.page-main-ideas-img-right{
+    height: 400px;
+    position: absolute;
+    z-index: 0;
+    top:82px;
+    left:520px;
+}
+.page-main-ideas-img-left:hover{
+    z-index: 2;
+}
+.page-main-ideas-img-right:hover{
+    z-index: 2;
+}
 
