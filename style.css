@@ -457,10 +457,20 @@ html,body{
     width: 370px;
     height: 237px;
 }
+.page-main-projects-card-heading1:before{
+    content: ""; 
+    width: 30px;
+    height: 10px;
+    background-image: url(../Site-5/images/arrow_project.svg);
+    position: absolute;
+    top: 228px;;
+    left:20px;
+}
 .page-main-projects-card{
     margin:0 30px 30px 0;
     width: 370px;
     background-color:#fbfaf8;
+    position: relative;
 }
 .page-main-projects-card-heading1{
     display: block;
@@ -480,6 +490,47 @@ html,body{
     line-height: 20px;
     text-align: left;
     margin: 7px 30px 25px 30px;
+}
+.page-main-projects-card-lock, .page-main-projects-card-search{
+    display: none;
+    width: 26px;
+    height: 26px;
+    border: none;
+    position: absolute;
+}
+.page-main-projects-card-lock{
+    top: 31%;
+    left: 39%;
+}
+.page-main-projects-card-search{
+    top: 31%;
+    left: 54%;
+}
+.page-main-projects-card:hover .page-main-projects-card-search,
+.page-main-projects-card:hover .page-main-projects-card-lock{
+    display: block;
+}
+.page-main-projects-card-lock-img, .page-main-projects-card-search-img{
+    fill: #fff;
+}
+.page-main-projects-card-lock-img:hover, .page-main-projects-card-search-img:hover{
+    fill:#c7b299;
+}
+.page-main-projects-card:hover .page-main-projects-photo{
+    filter: brightness(30%);
+}
+.page-main-projects-card:hover .page-main-projects-card-heading1
+ {
+    color:#ffffff;
+}
+.page-main-projects-card:hover .page-main-projects-card-heading2{
+    color:#c7b299;
+}
+.page-main-projects-card:hover {
+    background-color: #362f2d;
+} 
+.page-main-projects-card:hover .page-main-projects-card-heading1:before{
+    background-image: url(../Site-5/images/arrow_project_2.svg);
 }
 .page-main-projects-but{
     width: 170px;
