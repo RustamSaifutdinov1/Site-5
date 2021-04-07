@@ -581,7 +581,7 @@ html,body{
     border-radius: 50%;
 }
 .page-main-video-but:hover{
-    fill:#000;
+    fill:#c7b299;
 }
 .page-main-video-text-wrp{
     width: 552px;
@@ -606,7 +606,7 @@ html,body{
 }
 .page-main-video-time{
     display: block;
-    color: #fff;
+    color: #c7b299;
     font-family: montserrat;
     font-size: 14px;
     font-weight: 400;
