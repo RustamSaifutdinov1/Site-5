@@ -1,18 +1,18 @@
 @font-face{
     font-family: raleway;
-    src: url(../Site-5/fonts/Raleway/Raleway-Regular.ttf);
+    src: url(/docs/fonts/Raleway/Raleway-Regular.ttf);
     font-weight: 400;
     font-style: normal;
 }
 @font-face{
     font-family: raleway;
-    src: url(../Site-5/fonts/Raleway/Raleway-Medium.ttf);
+    src: url(/docs/fonts/Raleway/Raleway-Medium.ttf);
     font-weight: 500;
     font-style: normal;
 }
 @font-face{
     font-family: montserrat;
-    src: url(../Site-5/fonts/MONTSERRAT/Montserrat-Light.otf);
+    src: url(/docs/fonts/MONTSERRAT/Montserrat-Light.otf);
     font-weight: 300;
     font-style: normal;
 }
@@ -26,7 +26,7 @@ html,body{
 .page-header{
     width: 100%;
     box-sizing: border-box;
-    background-image: url(images/header.png);
+    background-image: url(/docs/images/header.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 40px 0px ; 
@@ -461,7 +461,7 @@ html,body{
     content: ""; 
     width: 30px;
     height: 10px;
-    background-image: url(../Site-5/images/arrow_project.svg);
+    background-image: url(/docs/images/arrow_project.svg);
     position: absolute;
     top: 228px;;
     left:20px;
@@ -530,7 +530,7 @@ html,body{
     background-color: #362f2d;
 } 
 .page-main-projects-card:hover .page-main-projects-card-heading1:before{
-    background-image: url(../Site-5/images/arrow_project_2.svg);
+    background-image: url(/docs/images/arrow_project_2.svg);
 }
 .page-main-projects-but{
     width: 170px;
@@ -562,12 +562,13 @@ html,body{
     align-items: center;
     overflow: hidden;
     position: relative;
-    background-image: url(../Site-5/images/photo-video.png);
+    background-image: url(/docs/images/photo-video.png);
     background-repeat: no-repeat;
 }
 .page-main-video{
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
+    object-fit: cover;
 }
 .page-main-video-but{
     display: block;
@@ -668,7 +669,7 @@ html,body{
     height: 21px;
     top:5px;
     left: -50px;
-    background-image: url(../Site-5/images/mobile_list_item.jpg);
+    background-image: url(/docs/images/mobile_list_item.jpg);
 }
 .page-main-statistic{
     display: flex;
