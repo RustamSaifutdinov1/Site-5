@@ -64,6 +64,15 @@ html,body{
     display: flex;
     padding: 0 0 0 219px;
 }
+label,#menu{
+    display: none;
+}
+.label-burg{
+    width: 64px;
+    height: 9px;
+    background-color: #ffffff;
+    margin: 6px 0 0 0;
+}
 .page-header-nav-list{
     list-style: none;
     display: flex;
@@ -1081,4 +1090,129 @@ html,body{
     line-height: 20px;
     font-weight: 300;
     color: #555555;
+}
+@media (max-width:605px){
+    .container{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .page-header{
+        padding: 20px ;
+        background-size: cover;
+        background-position: center;
+    }
+    .page-header-wrp{
+        padding: 0;
+        justify-content: space-between;
+    }
+    .page-header-nav{
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    label{
+        display: block;
+        width: 64px;
+        height: 39px;
+        background-color:transparent;
+        margin: 2px 0 0 0;
+    }
+    .page-header-nav-list{
+        display: none;
+        margin: 10px auto;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .page-header-nav-list-item-src{
+        text-align: center;
+        padding: 0 10px 0 0;
+    }
+    input[type="checkbox"]:checked ~ .page-header-nav-list{
+        display: flex;
+    }
+    .page-header-nav-but{
+        display: none;
+    }
+    .page-header-nav-form{
+        display: none;
+    }
+    .page-header-carousel{
+        display: none;
+    }
+    .page-main-serveses{
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+    .page-main-serveses-card{
+        padding: 0 10px 40px 0;
+    }
+    .page-main-ideas{
+        display: none;
+    }
+    .page-main-word-press{
+        display: none;
+    }
+    .page-main-projects{
+        padding: 0 10px 40px 0;
+    }
+    .page-main-projects-text{
+        width: 100%;
+    }
+    .page-main-projects-but-wrp{
+        flex-wrap: wrap;
+        margin: 0 auto 20px auto;
+        justify-content: center;
+        width: 100%;
+    }
+    .page-main-projects-buttons {
+        margin: 10px 10px 0 0;
+    }
+    .page-main-projects-buttons:last-child{
+        margin: 10px 10px 0 0;
+    }
+    .page-main-projects-card{
+        margin: 0 0 30px 0;
+    }
+    .page-main-video-wrp{
+        display: none;
+    }
+    .page-main-mobile{
+        display: block;
+        padding: 40px 0  ;
+    }
+    .page-main-mobile-photo{
+        display: none;
+    }
+    .page-main-mobile-text-wrp{
+        width: 100%;
+        text-align: center;
+    }
+    .page-main-mobile-list{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .page-main-statistic{
+        display: none;
+    }
+    .page-main-posts{
+        padding: 20px 0 50px 0;
+    }
+    .page-main-posts-text{
+        width: 100%;
+    }
+    .page-main-posts-wrp{
+        flex-wrap: wrap;
+    }
+    .page-main-posts-card{
+        margin: 0 0 30px 0;
+    }
+    .page-main-sponsors{
+        display: none;
+    }
+    .page-footer{
+        display: none;
+    }
+    .page-copyright{
+        flex-wrap: wrap;
+    }
 }
